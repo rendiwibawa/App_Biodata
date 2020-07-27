@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BiodataRendi</string>
+    <string name="content_text">Saya memiliki 2 orang adik yang masih duduk di bangku SD, Nini dan Nina, mereka kembar. Ayah saya bekerja di sebuah perusahaan kontraktor ternama dan Ibu saya yang bekerja di rumah sakit. Saya kira, itu saja yang bisa saya sampaikan mengenai perkenalan ini. Terima kasih banyak atas perhatiannya</string>
+    <string name="hobi">Bernafas,Makan,Minum .ect</string>
+    <string name="nama">Rendi Prayata Wibawa </string>
+    <string name="alamat">Jl. Merakurak, Tlogoagung, Temandang, Kec. Merakurak, Kabupaten Tuban, Jawa Timur 62355 </string>
+    <string name="dummy_foto">6 foto</string>
+    <string name="kenalan_yuk_s">Kenalan Yuk\'s</string>
+    <string name="hallo_sahabat_pentol">Dalam Al-Quran Mengatakan..</string>
+    <string name="alhujurat">Surah Al-Hujurat ayat 11 yang artinya Hai manusia, sesungguhnya Kami menciptakan kamu dari seorang laki-laki dan seorang perempuan dan menjadikan kamu berbangsa-bangsa dan bersuku-suku supaya kamu saling kenal-mengenal.</string>
+    <string name="biodata_lengkap">Biodata Ku :</string>
+    <string name="jdl_hobi">Hobi :</string>
+    <string name="jdl_alamat">Alamat:</string>
+    <string name="jdl_nama">Nama :</string>
+    <string name="product_by">Product By</string>
+    <string name="cita">Membahagiakan Orangtua, Berguna bagi nusa bangsa dan Agama </string>
+
+    <string name="title_activity_masuk_awal">masuk_awal</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="loading">Loading....</string>
+    <string name="jadi_mari_berkenalan">Jadi, Mari berkenalan...</string>
+    <string name="ttl">TTL</string>
+    <string name="nganjuk_24_april_2003">Nganjuk, 24 April 2003</string>
+
+
+</resources>

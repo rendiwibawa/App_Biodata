@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/actyfity_main"
+    android:padding="16dp"
+    android:background="@drawable/original"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                app:auto_cycle="true"
+                app:delay="2"
+                app:period="3000"
+                app:corner_radius="30"
+                app:error_image="@drawable/up"
+                app:placeholder="@drawable/up"
+                android:id="@+id/back"
+                android:adjustViewBounds="true">
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+<!--<ImageView-->
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#4D000000"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/dummy_foto"
+                android:drawablePadding="4dp"
+                android:drawableLeft="@drawable/ic_collections_white_18dp"
+                android:textColor="@android:color/white"
+                />
+        </FrameLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/kenalan_yuk_s"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/hallo_sahabat_pentol"
+            android:textColor="#7a7a7a"
+            android:textSize="16sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:text="@string/alhujurat"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/white">
+
+        </TextView>
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/jadi_mari_berkenalan"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+            android:textColor="#FFFF"
+    android:textSize="16sp"
+    />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:textColor="#7a7a7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/jdl_nama"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:text="@string/nama"
+                    android:textColor="@android:color/white"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:textColor="#7a7a7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jdl_hobi"
+                    android:textSize="16sp"
+                    android:layout_marginRight="16dp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hobi"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp">
+
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:textColor="#7a7a7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/jdl_alamat"
+                    android:layout_marginRight="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alamat"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp">
+
+                </TextView>
+
+            </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp">
+            <TextView
+                android:textColor="#7a7a7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/jdl_alamat"
+                android:layout_marginRight="16sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="2sp"
+                android:text="@string/cita"
+                android:textColor="@android:color/white"
+                android:textSize="14sp">
+
+            </TextView>
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:textColor="#7a7a7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/ttl"
+                    android:layout_marginRight="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nganjuk_24_april_2003"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp">
+
+                </TextView>
+
+            </TableRow>
+
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:text="Semakin aku belajar Semakin aku sadar bahwa AKU TIDAK TAHU APA-APA !..."
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/white">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_by"
+            android:textColor="#7a7f7f"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/fotoku"
+                android:layout_centerVertical="true"
+                android:id="@+id/profil"
+                android:layout_marginRight="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profil"
+                android:layout_centerVertical="true"
+                android:text="@string/nama"
+                android:textColor="@android:color/holo_orange_dark"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_ig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="Kenalan Kuy"
+                android:onClick="clik_socialmedia"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="#FFFF"
+                android:layout_weight="1"
+                android:background="@drawable/button_ig">
+            </Button>
+        </RelativeLayout>
+
+<!--        <ImageButton-->
+<!--        android:id="@+id/fb"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@drawable/fb"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="20dp">-->
+
+<!--    </ImageButton>-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/ig"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@drawable/ig">-->
+
+<!--        </ImageButton>-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/wa"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@drawable/wa"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="20dp">-->
+
+<!--        </ImageButton>-->
+    </LinearLayout>
+
+</ScrollView>
