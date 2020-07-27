@@ -1,10 +1,16 @@
-# App_Biodata
-## ICON APP
-![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app-icon.jpeg)![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_login.jpeg)
-![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_dashboard.jpeg)![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_kirim_wa.jpeg)
-## TAMPILAN_LOGIN
+# APP_BIODATA
+> use the display and display method where there is a scroll bar, photo sweep, send wa button to sweep my photo using assets from a third party
 
-## LAYAR UTAMA
+## App_Biodata
+![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app-icon.jpeg)
+## VIEW_LOGIN
+![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_login.jpeg)
+## MAIN SCENE
+![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_dashboard.jpeg)
+## FEATURES SEND WA
+![ALT TEXT](https://github.com/rendiwibawa/App_Biodata/blob/master/pushGit/app_kirim_wa.jpeg)
 
-## FITUR KIRIM WA
+## DOWNLOAD APP_TESTING
+https://drive.google.com/drive/u/0/folders/1Sw_g1axnqnP4tVuzdq4fnmrA-MFOd9lu
+
 
